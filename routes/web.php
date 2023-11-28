@@ -42,6 +42,7 @@ Route::fallback(function(){
     return "<h1>Page not found.</h1>";
 });
 
+// practicing git
 Route ::get('/book', function(){
     return view('book');
 })->name('book');
